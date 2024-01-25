@@ -63,11 +63,16 @@
     "pages": [
       {
         "name": "Go",
-        "url": "https://go.dev/doc/"
-      },
-      {
-        "name": "OCaml",
-        "url": "https://devdocs.io/ocaml/"
+        "pages": [
+          {
+            "name": "Official reference",
+            "url": "https://go.dev/doc/"
+          },
+          {
+            "name": "Design patterns",
+            "url": "https://refactoring.guru/design-patterns/go"
+          }
+        ]
       },
       {
         "name": "Nix",
@@ -87,12 +92,12 @@
         ]
       },
       {
-        "name": "Rust",
-        "url": "https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/glossary.html"
+        "name": "OCaml",
+        "url": "https://devdocs.io/ocaml/"
       },
       {
-        "name": "PostgreSQL 15",
-        "url": "https://www.postgresql.org/docs/15/index.html"
+        "name": "Rust",
+        "url": "https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/glossary.html"
       },
       {
         "name": "JavaScript",
@@ -102,7 +107,7 @@
             "url": "https://www.typescriptlang.org/docs/"
           },
           {
-            "name": "JavaScript",
+            "name": "MDN reference",
             "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
           }
         ]
@@ -119,6 +124,14 @@
             "url": "https://docs.python.org/3/library/index.html"
           }
         ]
+      },
+      {
+        "name": "PostgreSQL(15)",
+        "url": "https://www.postgresql.org/docs/15/index.html"
+      },
+      {
+        "name": "Redis",
+        "url": "https://redis.io/docs/reference/"
       }
     ]
   },
