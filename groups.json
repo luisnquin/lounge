@@ -127,12 +127,20 @@
     "icon": "󰱼",
     "pages": [
       {
+        "name": "PubMed(NIH)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/"
+      },
+      {
         "name": "Google Scholar",
         "url": "https://scholar.google.com/schhp"
       },
       {
         "name": "Sci-hub",
         "url": "https://www.sci-hub.se"
+      },
+      {
+        "name": "Dialnet",
+        "url": "https://dialnet.unirioja.es/"
       }
     ]
   },
