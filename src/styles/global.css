@@ -1,22 +1,22 @@
 @font-face {
-    font-family: 'NerdFontsSymbols';
-    src: url('/fonts/NerdFontsSymbols.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'NerdFontsSymbols';
+  src: url('/fonts/NerdFontsSymbols.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'JetBrainsMono Regular';
-    src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'JetBrainsMono Regular';
+  src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
-    font-family: 'JetBrainsMono Regular', 'NerdFontsSymbols';
+  font-family: 'JetBrainsMono Regular', 'NerdFontsSymbols';
 
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }

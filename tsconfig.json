@@ -1,6 +1,6 @@
 {
-    "extends": "astro/tsconfigs/strict",
-    "compilerOptions": {
-        "verbatimModuleSyntax": false
-    }
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "verbatimModuleSyntax": false,
+  },
 }
