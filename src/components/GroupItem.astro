@@ -1,0 +1,36 @@
+---
+import PageItem from './PageItem.astro'
+import { Group } from '../models'
+
+const group: Group = Astro.props.group
+---
+
+<style>
+  .group {
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    list-style: armenian;
+  }
+
+  .group-name {
+    color: #a1d2ce;
+  }
+
+  .pages {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+</style>
+
+<li class="group">
+  <h3 class="group-name">{group.icon} {group.name}</h3>
+
+  <ul class="pages">
+    {group.pages.map((item) => <PageItem page={item} />)}
+  </ul>
+</li>

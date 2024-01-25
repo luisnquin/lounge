@@ -1,0 +1,45 @@
+---
+import { Page } from '../models'
+
+const page: Page = Astro.props.page
+---
+
+<style>
+  .page {
+    margin-left: 25px;
+  }
+
+  .page-items {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .page-reference {
+    color: #535166;
+  }
+</style>
+
+<li class="page">
+  {
+    page.pages ? (
+      <>
+        <span>{page.name}</span>
+        <ul class="page-items">
+          {page.pages.map((item) => (
+            <Astro.self page={item} />
+          ))}
+        </ul>
+      </>
+    ) : (
+      <a
+        class="page-reference"
+        href={page.url}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {page.name}
+      </a>
+    )
+  }
+</li>

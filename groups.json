@@ -1,147 +1,140 @@
 [
-    {
-        "name": "self",
+  {
+    "name": "Self",
+    "icon": "󰮬",
+    "pages": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/luisnquin"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/luisnquin"
+      },
+      {
+        "name": "Portfolio",
+        "url": "https://luisquinones.me"
+      },
+      {
+        "name": "lpaandres2020@gmail.com",
+        "url": "https://mail.google.com/mail/u/1/#inbox"
+      }
+    ]
+  },
+  {
+    "name": "Nix",
+    "icon": "󱄅",
+    "pages": [
+      {
+        "name": "Search packages",
+        "url": "https://search.nixos.org/packages"
+      },
+      {
+        "name": "Search NixOS options",
+        "url": "https://search.nixos.org/options"
+      },
+      {
+        "name": "Search Home manager options",
+        "url": "https://mipmip.github.io/home-manager-option-search"
+      }
+    ]
+  },
+  {
+    "name": "Cloud providers/services",
+    "icon": "󰅟",
+    "pages": [
+      {
+        "name": "AWS Console",
+        "url": "https://console.aws.amazon.com/console/home"
+      },
+      {
+        "name": "Vercel Dashboard",
+        "url": "https://vercel.com/dashboard"
+      },
+      {
+        "name": "Netlify team",
+        "url": "https://app.netlify.com/teams/luisnquin/overview"
+      }
+    ]
+  },
+  {
+    "name": "Documentation",
+    "icon": "󰈙",
+    "pages": [
+      {
+        "name": "Go",
+        "url": "https://go.dev/doc/"
+      },
+      {
+        "name": "OCaml",
+        "url": "https://devdocs.io/ocaml/"
+      },
+      {
+        "name": "NixOS",
+        "url": "https://nixos.wiki/wiki/Main_Page"
+      },
+      {
+        "name": "Rust",
+        "url": "https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/glossary.html"
+      },
+      {
+        "name": "PostgreSQL 15",
+        "url": "https://www.postgresql.org/docs/15/index.html"
+      },
+      {
+        "name": "JavaScript",
         "pages": [
-            {
-                "name": "GitHub",
-                "url": "https://github.com/luisnquin"
-            },
-            {
-                "name": "LinkedIn",
-                "url": "https://www.linkedin.com/in/luisnquin"
-            },
-            {
-                "name": "Portfolio",
-                "url": "https://luisquinones.me"
-            },
-            {
-                "name": "lpaandres2020@gmail.com",
-                "url": "https://mail.google.com/mail/u/1/#inbox"
-            }
+          {
+            "name": "TypeScript",
+            "url": "https://www.typescriptlang.org/docs/"
+          },
+          {
+            "name": "JavaScript",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
+          }
         ]
-    },
-    {
-        "name": "Nix",
+      },
+      {
+        "name": "Python",
         "pages": [
-            {
-                "name": "Search packages",
-                "url": "https://search.nixos.org/packages"
-            },
-            {
-                "name": "Search NixOS options",
-                "url": "https://search.nixos.org/options"
-            },
-            {
-                "name": "Search Home manager options",
-                "url": "https://mipmip.github.io/home-manager-option-search"
-            }
+          {
+            "name": "Language",
+            "url": "https://docs.python.org/3/reference/index.html"
+          },
+          {
+            "name": "Standard Library",
+            "url": "https://docs.python.org/3/library/index.html"
+          }
         ]
-    },
-    {
-        "name": "Cloud providers/services",
-        "pages": [
-            {
-                "name": "AWS Console",
-                "url": "https://console.aws.amazon.com/console/home"
-            },
-            {
-                "name": "Vercel Dashboard",
-                "url": "https://vercel.com/dashboard"
-            },
-            {
-                "name": "Netlify team",
-                "url": "https://app.netlify.com/teams/luisnquin/overview"
-            }
-        ]
-    },
-    {
-        "name": "Documentation",
-        "pages": [
-            {
-                "name": "Go",
-                "url": "https://go.dev/doc/"
-            },
-            {
-                "name": "OCaml",
-                "url": "https://devdocs.io/ocaml/"
-            },
-            {
-                "name": "NixOS",
-                "url": "https://nixos.wiki/wiki/Main_Page"
-            },
-            {
-                "name": "Rust",
-                "url": "https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/glossary.html"
-            },
-            {
-                "name": "PostgreSQL 15",
-                "url": "https://www.postgresql.org/docs/15/index.html"
-            },
-            {
-                "name": "JavaScript",
-                "pages": [
-                    {
-                        "name": "TypeScript",
-                        "url": "https://www.typescriptlang.org/docs/"
-                    },
-                    {
-                        "name": "JavaScript",
-                        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
-                    }
-                ]
-            },
-            {
-                "name": "Python",
-                "pages": [
-                    {
-                        "name": "Language",
-                        "url": "https://docs.python.org/3/reference/index.html"
-                    },
-                    {
-                        "name": "Standard Library",
-                        "url": "https://docs.python.org/3/library/index.html"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Remote Git repositories",
-        "pages": [
-            {
-                "name": "GitHub",
-                "url": "https://github.com"
-            },
-            {
-                "name": "GitLab",
-                "url": "https://gitlab.com"
-            }
-        ]
-    },
-    {
-        "name": "Online tools",
-        "pages": [
-            {
-                "name": "Image Resizer",
-                "url": "https://redketchup.io/image-resizer"
-            },
-            {
-                "name": "Excalidraw",
-                "url": "https://excalidraw.com"
-            }
-        ]
-    },
-    {
-        "name": "Research",
-        "pages": [
-            {
-                "name": "Google Scholar",
-                "url": "https://scholar.google.com/schhp"
-            },
-            {
-                "name": "Sci-hub",
-                "url": "https://www.sci-hub.se"
-            }
-        ]
-    }
+      }
+    ]
+  },
+  {
+    "name": "Research",
+    "icon": "󰱼",
+    "pages": [
+      {
+        "name": "Google Scholar",
+        "url": "https://scholar.google.com/schhp"
+      },
+      {
+        "name": "Sci-hub",
+        "url": "https://www.sci-hub.se"
+      }
+    ]
+  },
+  {
+    "name": "Online tools",
+    "icon": "󱁤",
+    "pages": [
+      {
+        "name": "Image Resizer",
+        "url": "https://redketchup.io/image-resizer"
+      },
+      {
+        "name": "Excalidraw",
+        "url": "https://excalidraw.com"
+      }
+    ]
+  }
 ]
