@@ -70,8 +70,21 @@
         "url": "https://devdocs.io/ocaml/"
       },
       {
-        "name": "NixOS",
-        "url": "https://nixos.wiki/wiki/Main_Page"
+        "name": "Nix",
+        "pages": [
+          {
+            "name": "Wiki",
+            "url": "https://nixos.wiki/wiki/Main_Page"
+          },
+          {
+            "name": "Lib",
+            "url": "https://teu5us.github.io/nix-lib.html"
+          },
+          {
+            "name": "Builtins",
+            "url": "https://nixos.org/manual/nix/stable/language/builtins.html"
+          }
+        ]
       },
       {
         "name": "Rust",
