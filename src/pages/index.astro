@@ -39,6 +39,21 @@ const pageTitle = 'Lounge'
         margin: 5rem;
       }
 
+      #date-time-code {
+        background-color: #263440;
+
+        width: min-content;
+        padding: 20px;
+
+        border-radius: 3px;
+        white-space: nowrap;
+        overflow: auto;
+
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+
       #date-time {
         font-size: 17px;
       }
@@ -57,7 +72,10 @@ const pageTitle = 'Lounge'
     <main>
       <h1>Welcome!</h1>
 
-      <h2 id="date-time"></h2>
+      <code id="date-time-code">
+        $ while true; do echo -n "$(date '+%A, %H:%M:%S | %b %d, %Y')"; sleep 1; printf "\r"; done
+        <h2 id="date-time"></h2>
+      </code>
 
       <ul id="groups">
         {groups.map((item) => <GroupItem group={item} />)}
