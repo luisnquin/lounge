@@ -2,7 +2,7 @@
 
 ## How to use (?)
 
-Start forking this repository, after that clone your fork in your local.
+Start forking this repository. After that, clone your fork in your computer.
 
 ### Deploy
 
