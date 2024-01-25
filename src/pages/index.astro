@@ -3,7 +3,11 @@ import '../styles/global.css'
 import { Group } from '../models'
 import GroupItem from '../components/GroupItem.astro'
 
-const groups: Group[] = (await import('../../groups.json')).default
+interface Source {
+  groups: Group[]
+}
+
+const { groups }: Source = (await import('../../source.json')).default
 
 const pageTitle = 'Lounge'
 ---
